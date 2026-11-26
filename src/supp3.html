@@ -24,7 +24,7 @@ a{color:var(--green);text-decoration:none}
 .er{flex:1;border:1.5px solid var(--red);border-radius:12px;padding:9px 12px;font-size:12.5px;line-height:1.45}
 .er b{color:var(--red);display:block;font-size:13.5px}
 .arr{display:flex;align-items:center;color:var(--red);font-weight:800}
-table.src td{padding:5px 8px}
+table.src td{padding:3px 8px;line-height:1.35}
 
 .pos{display:grid;grid-template-columns:1fr 30px 1fr 30px 1.3fr;align-items:stretch;margin-top:16px}
 .pb{background:var(--soft);border-radius:14px;padding:14px 16px}.pb.hl{background:var(--mint);outline:1.5px solid var(--green)}.pb.dk{background:var(--deep);color:#fff}
@@ -44,6 +44,8 @@ table.src td{padding:5px 8px}
 .tpl{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
 .tp{border:1.5px solid var(--green);border-radius:12px;padding:11px 13px;font-size:13px;line-height:1.5}
 .tp b{display:block;font-size:14.5px;color:var(--deep);margin-bottom:3px}.tp.gr{border-style:dashed}
+table.tightr td{padding:5px 9px}
+.scope{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}.scope div{background:var(--soft);border-radius:10px;padding:9px 12px;font-size:12.5px;line-height:1.5}.scope b{display:block;color:var(--deep);font-size:13.5px}
 .tu{margin-top:6px;font-size:12px;font-weight:700;color:var(--green)}
 </style></head><body>
 
@@ -59,7 +61,7 @@ table.src td{padding:5px 8px}
     <tr><td><b>한계·오인 안내</b></td><td class="lg">로그인 이후 미확인</td><td class="ok">확인됨(일반 문구) · 과거 수익이 미래를 보장하지 않음</td><td class="lg">로그인 이후 미확인</td><td class="nf">공개 자료에서 미발견</td><td class="hb">연결마다 한계·기준일 표시</td></tr>
     <tr><td><b>사후관리</b></td><td class="lg">로그인 이후 미확인</td><td class="ok">확인됨 · 저작권료·체결 알림</td><td class="ok">확인됨 · 사육현황</td><td class="ok">확인됨 · 'AI 브리핑' 등락 배경 요약</td><td class="hb">공시·직접 지표 변경 시에만 안내 (후속 단계)</td></tr>
     <tr><td><b>확인 우선순위</b></td><td class="lg">로그인 이후 미확인</td><td class="ok">확인됨(일반 문구) · 투자 전 상품설명서 확인 권고</td><td class="lg">로그인 이후 미확인</td><td class="nf">공개 자료에서 미발견</td><td class="hb">개별 공시 → 직접 지표 → 비교 상품</td></tr>
-    <tr><td><b>조사 자료</b></td><td><a href="https://apps.apple.com/kr/app/id1463258091">앱스토어 소개</a> · <a href="https://www.fnnews.com/news/202607201814108955">파이낸셜뉴스 2026.7.20</a> (플랫폼 운영 종료 예정 보도)</td><td><a href="https://apps.apple.com/kr/app/id1512736397">앱스토어 소개</a></td><td><a href="https://findon.kr">findon.kr</a> (홈)</td><td>SBS Biz 2026.9.7 <a href="https://biz.sbs.co.kr/amp/article/20000333091">기사</a></td><td class="hb">—</td></tr>
+    <tr><td><b>조사 자료</b></td><td>앱스토어 소개 (조사 당시) · <a href="https://www.fnnews.com/news/202607201814108955">파이낸셜뉴스 2026.7.20</a> (플랫폼 운영 종료 예정 보도)</td><td><a href="https://apps.apple.com/kr/app/id1512736397">앱스토어 소개</a></td><td><a href="https://findon.kr">findon.kr</a> (홈)</td><td>SBS Biz 2026.9.7 <a href="https://biz.sbs.co.kr/amp/article/20000333091">기사</a></td><td class="hb">—</td></tr>
   </table>
   <div class="row2">
     <div class="card" style="font-size:13px;line-height:1.6"><b>표현 원칙</b> — '공개 자료에서 미발견'과 '로그인 이후 미확인'은 기능이 없다는 뜻이 아닙니다. 국내 최초·유일·기존 서비스에 없는 기능이라고 쓰지 않습니다. 펀블은 2026.7.3 파산 선고(비즈한국 보도)로 비교에서 뺐습니다.</div>
@@ -113,7 +115,7 @@ table.src td{padding:5px 8px}
     <div class="rd"><div class="no">4</div><h3>시범 적용</h3><p>하나증권V 상품 상세 탭과 시작 설문. 이해도·오인율·모드 이용률 측정</p><div class="gate">완료: 평가 결과 보고</div></div>
     <div class="rd"><div class="no">5</div><h3>확대</h3><p>자산 유형 템플릿 확대, 후속 기능(동의 기반 개인화·공통 위험 진단·알림·통계)</p><div class="gate">조건: 동의·목적 제한·철회 정책</div></div>
   </div>
-  <table class="t" style="margin-top:12px;font-size:13px">
+  <table class="t tightr" style="margin-top:10px;font-size:12.5px">
     <tr><th style="width:170px">역할 (가정)</th><th>책임</th></tr>
     <tr><td>상품 담당</td><td>계약 원문, 변경 공시, 상품별 예외 확인</td></tr>
     <tr><td>리서치</td><td>연결 기준, 경제적 전달 경로, 비교 대상 승인</td></tr>
@@ -127,6 +129,7 @@ table.src td{padding:5px 8px}
     <div class="er"><b>③ 손님 안내</b>필요하면 오류 정보를 본 손님에게 안내</div><div class="arr">›</div>
     <div class="er"><b>④ 재승인 기록</b>승인자·사유·일시</div>
   </div>
+  <div class="scope"><div><b>실제 수행 완료</b>투자설명서·공시 분석, 손익 요인 추출, 금융정보 후보 선정, 연결 판정·근거 검토 (실제 상품 2개)</div><div><b>설계 완료</b>분석 엔진, 포커스 엔진, 자동화 파이프라인, 화면 시안, 운영·승인 체계</div><div><b>향후 검증 대상</b>알고리즘 정확도, 자동화 성능, 의미 보존율, 고객 이해도, 고객 선점 효과, 운영 비용</div></div>
   <p class="note" style="margin-top:8px">매수 버튼 분리와 자사 상품 우선 노출 방지를 적용하지만, 이것만으로 투자권유 규제에서 제외된다고 판단하지 않습니다. 데이터 지연 시 기준일과 지연 상태를 표시하고 오래된 정보로 안내하지 않습니다.</p>
   <div class="foot"><span><b>HANASTORY</b> · 하나증권의 사업적 가치: 리서치 재활용 · 신규 상품 설명 지원 · 투자 이후 손님 접점 · 상품 오인과 민원 예방 가능성</span><span>3 / 6</span></div>
 </section>
@@ -135,8 +138,9 @@ table.src td{padding:5px 8px}
 <section class="page">
   <div class="kicker">보충자료 3 · 사업 전략 — 토큰증권 초기 시장 고객 선점</div>
   <h1>같은 상품이라면, <em>더 쉽고 정확하게 이해시키는 곳</em>을 고를 가능성이 있습니다</h1>
+  <p class="lead" style="font-size:14px">향후 장외거래소를 중심으로 유통시장이 형성되고 여러 증권사가 동일한 상품을 취급하게 된다면, 경쟁은 상품 접근성을 넘어 투자 경험의 차이로 이어질 수 있습니다.</p>
   <div class="pos">
-    <div class="pb"><div class="pl">발행은 여러 플랫폼, 거래는 장외거래소로 모임 → 증권사마다 같은 상품</div><div class="pv">발행 · 청약 · 거래</div></div>
+    <div class="pb"><div class="pl">기존 토큰증권 플랫폼의 초점</div><div class="pv">발행 · 청약 · 거래</div></div>
     <div class="pa">+</div>
     <div class="pb hl"><div class="pl">HANASTORY가 더하는 단계</div><div class="pv">이해 · 판단 · 보유 중 확인</div></div>
     <div class="pa">=</div>
@@ -192,9 +196,9 @@ table.src td{padding:5px 8px}
   <h1>근거는 <em>원문으로 직접 확인할 수 있습니다</em></h1>
   <div class="row2" style="margin-top:8px">
     <div class="card" style="font-size:12.5px;line-height:1.55;padding:12px 16px"><b>하나증권의 사업적 가치</b> — 거래 인프라와 상품 공급이 늘면 경쟁은 상품 수를 넘어 투자 경험의 차이로 이어질 수 있습니다. 하나증권은 한돈 상품의 계좌관리기관으로 정산 구조를 다뤘고, 하나증권V와 리서치 역량을 갖췄습니다. 연결 기준을 재사용하면 담당자는 개별 계약조건과 위험 검토에 집중할 수 있습니다.</div>
-    <div class="card" style="font-size:12.5px;line-height:1.55;padding:12px 16px"><b>보조 근거</b> — 하나은행의 두나무 지분 6.55% 취득 결정(2026.5.14 이사회)은 그룹의 디지털자산 방향을 보여줍니다. 계열사·제휴사 고객정보 공유를 전제로 하지 않습니다.</div>
+    <div class="card" style="font-size:12.5px;line-height:1.55;padding:12px 16px"><b>보조 근거</b> — 하나증권 보험/증권 업종 보고서 「주주환원이 빛을 발할 시점」(애널리스트 고연수, 2026.11.23 기준) 7쪽 'STO 제도화: 온체인 금융으로 가는 첫걸음': "단기 실적 기여보다는 중장기 사업 확장 가능성에 주목". 제안 방향과 부합하는 산업 전망일 뿐 서비스 효과를 입증하지 않습니다. 하나은행 두나무 지분 취득 결정(2026.5.14)도 보조 근거입니다.</div>
   </div>
-  <table class="t src" style="margin-top:10px;font-size:12px">
+  <table class="t src" style="margin-top:8px;font-size:11.5px">
     <tr><th style="width:420px">문서 · 사용한 내용</th><th style="width:240px">발행 기관 · 날짜</th><th>원문 링크</th></tr>
     <tr><td><b>투자설명서 (가축투자계약증권 제1호)</b> — <span style="color:var(--sub)">정산식·청산수수료, 매각가 기준, 사료비, 양도 제한, 계좌관리기관</span></td><td>데이터젠 · 2026.1.29</td><td><a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260129000008">DART 20260129000008</a></td></tr>
     <tr><td><b>투자설명서 제2호 · 제3호</b> — <span style="color:var(--sub)">자돈 매입가 산식, 동일 정산 조항</span></td><td>데이터젠 · 2026.5.14 / 6.26</td><td><a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260514000004">DART 20260514000004</a> · <a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626000400">20260626000400</a></td></tr>
@@ -205,6 +209,7 @@ table.src td{padding:5px 8px}
     <tr><td><b>한돈 1호 정산 보도</b> — <span style="color:var(--sub)">매각금액, 정산일, 18.4% · 13.1%</span></td><td>스마트투데이 2026.5.13 · 파이낸셜뉴스 2026.5.12</td><td><a href="https://www.smarttoday.co.kr/ko-kr/articles/107451">스마트투데이</a> · <a href="https://www.fnnews.com/news/202605121331279040">파이낸셜뉴스</a></td></tr>
     <tr><td><b>토큰증권 하위법규 입법예고 · 장외거래소 예비인가</b> — <span style="color:var(--sub)">1단계 범위, 일반투자자 연간 순매수 1억 원, KDX·NXT 예비인가</span></td><td>금융위원회 · 2026.10.1 / 2026.2.13</td><td><a href="https://www.fsc.go.kr/no010101/87838">입법예고</a> · <a href="https://www.fsc.go.kr/no010101/86295">예비인가</a></td></tr>
     <tr><td><b>개정 전자증권법·자본시장법 공포</b> — <span style="color:var(--sub)">2026.1.15 국회 통과, 2026.2.3 공포, 2027.2.4 시행</span></td><td>법률신문</td><td><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=218741">법률신문</a></td></tr>
+    <tr><td><b>보험/증권 업종 보고서 「주주환원이 빛을 발할 시점」</b> — <span style="color:var(--sub)">7쪽 'STO 제도화: 온체인 금융으로 가는 첫걸음'</span></td><td>하나증권 (애널리스트 고연수) · 2026.11.23 기준</td><td>하나증권 발간 (하나TV)</td></tr>
     <tr><td><b>하나증권V 출시</b> — <span style="color:var(--sub)">AI 브리핑, ETF MBTI</span></td><td>SBS Biz · 2026.9.7</td><td><a href="https://biz.sbs.co.kr/amp/article/20000333091">SBS Biz</a></td></tr>
     <tr><td><b>공공데이터 이용 조건</b> — <span style="color:var(--sub)">경락가격·한국은행 API 이용허락범위</span></td><td>공공데이터포털</td><td><a href="https://www.data.go.kr/data/15057912/openapi.do">15057912</a> · <a href="https://www.data.go.kr/data/15059638/openapi.do">15059638</a></td></tr>
   </table>
